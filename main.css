@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/*
+Fontes:
+font-family: "Roboto", sans-serif;
+*/
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url(image/SpiderMan\ background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#logo {
+    width: 150px;
+    margin-top: 16px;
+}
+
+/*Nav Global*/
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+
+/*Navegation*/
+.navegation li {
+    display: inline;
+    align-items: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 40px;
+    list-style-type: none;
+}
+
+.navegation li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navegation li a:hover{
+    color: #D81E18;
+    transition: 0.5s;
+}
+
+/*Social Media Logo*/
+.social-media {
+    display: flex;
+    margin-left: auto;
+}
+
+.social-media li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+    margin-left: 30px;
+    opacity: 50%;
+}
+
+.social-media li a:hover {
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+#conteudo {
+    display: block;
+    align-items: center;
+    width: 50%;
+    margin-top: 150px;
+}
+
+#conteudo img {
+    width: 400px;
+}
+
+#conteudo p {
+    font-size: 18px;
+    text-align: left;
+    color: white;
+}
+
+
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn-a button {
+    margin-top: 10px;
+    margin-right: 100px;
+    padding: 10px;
+    background-color: #1A2F5A;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-a button:hover {
+    background-color: #2f4f8f;
+    transition: 0.5s;
+}
+
+.btn-a button a, .btn-b button a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn-b button {
+    margin-top: 10px;
+    margin-right: 100px;
+    padding: 10px;
+    border-color: #ff342d;
+    background-color: #ffffff00;
+    border-radius: 10px;
+}
+
+.btn-b button:hover{
+    border-color: #f27e7a;
+    transition: 0.5s;
+}
+
+
+
+
+
